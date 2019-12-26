@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule,   CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 import { StorefrontModule } from '@spartacus/storefront';
 
@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [AppComponent],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA],
   imports: [
     BrowserModule,
     StorefrontModule.withConfig({
