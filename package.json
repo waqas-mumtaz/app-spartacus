@@ -10,7 +10,7 @@
     "@ngrx/store": "7.0.0",
     "@types/node": "8.9.5",
     "@angular/pwa": "0.12.4",
-    "@angular/core": "7.2.5",
+    "@angular/core": "10.2.5",
     "@angular/http": "7.2.5",
     "@ngrx/effects": "7.0.0",
     "@angular/forms": "7.2.5",
